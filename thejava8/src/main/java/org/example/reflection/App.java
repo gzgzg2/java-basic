@@ -12,7 +12,6 @@ public class App
     public static void main( String[] args ) throws ClassNotFoundException {
         // ClassLoad 당시에 생성된 인스턴스 접근
         Class<Book> bookClass = Book.class;
-
         // 직접 생성하여 클래스 인스턴스에 접근
         Book book = new Book();
         Class<? extends Book> aClass = book.getClass();

@@ -1,5 +1,7 @@
 package org.example.reflection;
 
+
+@MyAnnotatiom
 public class Book {
 
     private String a = "a";

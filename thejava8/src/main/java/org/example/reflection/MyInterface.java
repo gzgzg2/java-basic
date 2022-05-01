@@ -1,4 +1,4 @@
 package org.example.reflection;
 
-public class MyInterface {
+public interface MyInterface {
 }
